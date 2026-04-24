@@ -21,10 +21,6 @@ A remarkably tiny, functional text editor written in less than **1 KB** of pure 
 | `^X` (Ctrl+X) | **Exit** editor |
 | `Arrows` | Navigate text |
 
-To make the README even more user-friendly, you can add a **"Quick Start"** or **"Installation"** section that includes the one-liner. This allows users to get up and running in seconds.
-
-Here is the markdown section you can paste into your README:
-
 ---
 
 ## Installation
