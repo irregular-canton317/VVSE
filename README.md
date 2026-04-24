@@ -21,16 +21,31 @@ A remarkably tiny, functional text editor written in less than **1 KB** of pure 
 | `^X` (Ctrl+X) | **Exit** editor |
 | `Arrows` | Navigate text |
 
-## Usage
+To make the README even more user-friendly, you can add a **"Quick Start"** or **"Installation"** section that includes the one-liner. This allows users to get up and running in seconds.
 
-1.  **Download the script:**
-    ```bash
-    chmod +x vvse.sh
-    ```
-2.  **Run it:**
-    ```bash
-    ./vvse.sh filename.txt
-    ```
+Here is the markdown section you can paste into your README:
+
+---
+
+## Installation
+
+Get **VVSE** running on your system with a single command. This will download the script, move it to your local binaries, and make it executable.
+
+### The One-Liner
+```bash
+curl -s https://raw.githubusercontent.com/vextoly/VVSE/main/main.sh | sudo tee /usr/local/bin/vvse > /dev/null && sudo chmod +x /usr/local/bin/vvse
+```
+
+### Manual Setup
+If you prefer to install it without `sudo` (to your local user folder):
+```bash
+mkdir -p ~/.local/bin
+curl -s https://raw.githubusercontent.com/vextoly/VVSE/main/main.sh > ~/.local/bin/vvse
+chmod +x ~/.local/bin/vvse
+```
+*Note: Ensure `~/.local/bin` is in your `$PATH`.*
+
+---
 
 > [!TIP]
 > If your terminal behavior feels "off" after an unexpected crash, simply type `reset` and hit Enter to restore your terminal settings.
