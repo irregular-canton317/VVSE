@@ -50,5 +50,4 @@ chmod +x ~/.local/bin/vvse
 
 ## To-Do:
 - [X] Add Arrow Up/Down
-- [X] Add Welcome MSG
 - [X] Allow opening files directly via the `vvse` command
