@@ -20,6 +20,7 @@ A remarkably tiny, functional text editor written in less than **1 KB** of pure 
 | `^F` (Ctrl+F) | **Find** / Search (Highlights matches in yellow) |
 | `^U` (Ctrl+U) | **Clear** entire buffer |
 | `^X` (Ctrl+X) | **Exit** editor (Restores cursor and terminal) |
+| `^H` (Ctrl+H) | **Hide** infobar |
 | `Arrows` | **Navigate** through text |
 
 ---
@@ -50,4 +51,4 @@ chmod +x ~/.local/bin/vvse
 ## To-Do:
 - [X] Add Arrow Up/Down
 - [X] Add Welcome MSG
-- [ ] Allow opening files directly via the `vvse` command
+- [X] Allow opening files directly via the `vvse` command
