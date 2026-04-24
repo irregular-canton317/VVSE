@@ -47,4 +47,4 @@ chmod +x ~/.local/bin/vvse
 > If your terminal behavior feels "off" after an unexpected crash, simply type `reset` and hit Enter to restore your terminal settings.
 
 ## Screenshot
-<img width="252" height="137" alt="image" src="https://github.com/user-attachments/assets/49ede290-5011-4ed6-8358-a6ad3aa2d1db" />
+<img width="990" height="541" alt="image" src="https://github.com/user-attachments/assets/58a025fe-fd9d-497e-8da5-ac9a1e831552" />
