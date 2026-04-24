@@ -50,3 +50,4 @@ chmod +x ~/.local/bin/vvse
 ## To-Do:
 - [X] Add Arrow Up/Down
 - [X] Add Welcome MSG
+- [ ] Add "Top" and "Bottom" keybinds
