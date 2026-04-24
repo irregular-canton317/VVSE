@@ -5,11 +5,12 @@ A remarkably tiny, functional text editor written in less than **1 KB** of pure 
 ## Features
 
 * **Ultra-Lightweight:** The entire script is guaranteed to stay under **1024 bytes**.
-* **Zero Dependencies:** Built using only `stty`, `dd`, and `sed`.
-* **Smart Navigation:** Full 4-way arrow key support (Up, Down, Left, Right).
-* **Pure Minimalism:** Hidden terminal cursor and no status bars for a clean "text-only" look.
-* **Auto-Pathing:** Pass a filename as an argument to open or create it instantly.
-* **Live Highlighting:** Real-time search result marking.
+* **Zero Dependencies:** Built using only POSIX-standard `sh`, `stty`, `dd`, and `sed`.
+* **Smart Navigation:** Full 4-way arrow key support for fluid cursor movement through the text buffer.
+* **CLI Integration:** Pass a filename as a command-line argument to load or create it instantly (e.g., `./vvse.sh notes.txt`).
+* **Live Highlighting:** Real-time search result marking using ANSI color escape sequences.
+* **Dynamic UI Toggle:** Use **Ctrl+H** to hide the status bar for a clean, "distraction-free" interface or show it for quick command reference.
+* **Native Control:** Standardized keybinds for Save (**^S**), Open (**^O**), Find (**^F**), and Exit (**^X**).
 
 ## Shortcuts
 
