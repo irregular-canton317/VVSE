@@ -46,6 +46,3 @@ chmod +x ~/.local/bin/vvse
 
 > [!TIP]
 > If your terminal behavior feels "off" after an unexpected crash, simply type `reset` and hit Enter to restore your terminal settings.
-
-## Known issues (i'm working on)
-- Pasting doesn't work
