@@ -5,7 +5,7 @@ l=$(cat "$f" 2>/dev/null);r="";N="
 while :;do
 z="$l|$r";[ "$s" ]&&z=$(echo "$z"|sed "s/$s/${E}[43;30m&${E}[0m/g")
 $p "${E}[H${E}[J$(echo "$z"|sed 's/$/\r/')"
-[ $v -eq 1 ]&&$p "${E}[99H${E}[7mVVSE|^S Sve|^O Opn|^X Ext|^U Clr|^F Fnd|^H HUI ${E}[m"
+[ $v -eq 1 ]&&$p "${E}[99H${E}[7mVVSE|^S Sve|^O Opn|^X Ext|^U Clr|^F Fnd|^H TUI ${E}[m"
 k=$(dd bs=1 count=1 2>/dev/null)
 case "$k" in
 $($p '\030'))exit;;
