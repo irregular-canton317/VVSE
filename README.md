@@ -1,25 +1,28 @@
 # VVSE - Vextoly's Very Simple Editor
 
-A remarkably tiny, functional text editor written in less than **1 KB** of pure Bash. **VVSE** demonstrates the power of standard Unix tools and ANSI escape sequences to create an interactive TUI (Terminal User Interface) without external libraries like `ncurses`.
+A remarkably tiny, functional text editor written in less than **1 KB** of pure Bash. **VVSE** focuses on extreme minimalism, using only standard Unix tools and ANSI escape sequences to create a distraction-free TUI.
 
 ## Features
 
-* **Sub-1KB Footprint:** The entire editor is roughly 1010 bytes.
-* **Zero Dependencies:** Runs on any standard Linux/Unix shell with `stty`, `dd`, and `sed`.
-* **Live Search:** Highlighting support for finding strings within your text.
-* **Gap-Buffer Logic:** Efficient cursor movement using string manipulation.
-* **Raw Mode:** Direct keyboard interaction for a responsive feel.
+* **Ultra-Lightweight:** The entire script is guaranteed to stay under **1024 bytes**.
+* **Zero Dependencies:** Built using only `stty`, `dd`, and `sed`.
+* **Smart Navigation:** Full 4-way arrow key support (Up, Down, Left, Right).
+* **Pure Minimalism:** Hidden terminal cursor and no status bars for a clean "text-only" look.
+* **Auto-Pathing:** Pass a filename as an argument to open or create it instantly.
+* **Live Highlighting:** Real-time search result marking.
 
 ## Shortcuts
 
 | Key | Action |
 | :--- | :--- |
-| `^S` (Ctrl+S) | **Save** to file |
-| `^O` (Ctrl+O) | **Open** a file |
-| `^F` (Ctrl+F) | **Find** / Search (Highlights matches) |
+| `^S` (Ctrl+S) | **Save** (Auto-saves to path or asks for name) |
+| `^O` (Ctrl+O) | **Open** a new file |
+| `^F` (Ctrl+F) | **Find** / Search (Highlights matches in yellow) |
 | `^U` (Ctrl+U) | **Clear** entire buffer |
-| `^X` (Ctrl+X) | **Exit** editor |
-| `Arrows` | Navigate text |
+| `^X` (Ctrl+X) | **Exit** editor (Restores cursor and terminal) |
+| `Arrows` | **Navigate** through text |
+
+> **Note:** On first launch, a welcome screen will appear. Simply press any key to start typing.
 
 ---
 
