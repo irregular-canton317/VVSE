@@ -35,9 +35,6 @@ A remarkably tiny, functional text editor written in less than **1 KB** of pure 
 > [!TIP]
 > If your terminal behavior feels "off" after an unexpected crash, simply type `reset` and hit Enter to restore your terminal settings.
 
-## 🔍 How it Works
+## How it Works
 
 The editor operates by splitting your text into two variables: `l` (everything to the left of the cursor) and `r` (everything to the right). When you move the cursor, characters are shifted between these two strings. The interface is rendered using **ANSI Escape Codes** to manipulate the cursor position and clear the screen on every keystroke.
-
----
-*Created by [Vextoly](https://github.com/vextoly)*
