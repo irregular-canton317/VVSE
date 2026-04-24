@@ -22,8 +22,6 @@ A remarkably tiny, functional text editor written in less than **1 KB** of pure 
 | `^X` (Ctrl+X) | **Exit** editor (Restores cursor and terminal) |
 | `Arrows` | **Navigate** through text |
 
-> **Note:** On first launch, a welcome screen will appear. Simply press any key to start typing.
-
 ---
 
 ## Installation
