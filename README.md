@@ -31,7 +31,7 @@ Here is the markdown section you can paste into your README:
 
 Get **VVSE** running on your system with a single command. This will download the script, move it to your local binaries, and make it executable.
 
-### The One-Liner
+### Automatic Setup
 ```bash
 curl -s https://raw.githubusercontent.com/vextoly/VVSE/main/main.sh | sudo tee /usr/local/bin/vvse > /dev/null && sudo chmod +x /usr/local/bin/vvse
 ```
