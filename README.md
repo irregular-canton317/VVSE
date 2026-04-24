@@ -6,7 +6,7 @@ A remarkably tiny, functional text editor written in less than **1 KB** of pure 
 
 * **Ultra-Lightweight:** The entire script is guaranteed to stay under **1024 bytes**.
 * **Zero Dependencies:** Built using only `stty`, `dd`, and `sed`.
-* **Smart Navigation:** Full 4-way arrow key support (Up, Down, Left, Right). *(Currently only Left/Right: I'm working on it!)*
+* **Smart Navigation:** Full 4-way arrow key support (Up, Down, Left, Right).
 * **Pure Minimalism:** Hidden terminal cursor and no status bars for a clean "text-only" look.
 * **Auto-Pathing:** Pass a filename as an argument to open or create it instantly.
 * **Live Highlighting:** Real-time search result marking.
@@ -48,5 +48,5 @@ chmod +x ~/.local/bin/vvse
 > If your terminal behavior feels "off" after an unexpected crash, simply type `reset` and hit Enter to restore your terminal settings.
 
 ## To-Do:
-- [ ] Add Arrow Up/Down
-- [ ] Add Welcome MSG
+- [X] Add Arrow Up/Down
+- [X] Add Welcome MSG
