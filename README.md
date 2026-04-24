@@ -20,7 +20,7 @@ A remarkably tiny, functional text editor written in less than **1 KB** of pure 
 | `^F` (Ctrl+F) | **Find** / Search (Highlights matches in yellow) |
 | `^U` (Ctrl+U) | **Clear** entire buffer |
 | `^X` (Ctrl+X) | **Exit** editor (Restores cursor and terminal) |
-| `^H` (Ctrl+H) | **Hide** infobar |
+| `^H` (Ctrl+H) | **Toggle** infobar |
 | `Arrows` | **Navigate** through text |
 
 ---
