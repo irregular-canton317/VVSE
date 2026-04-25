@@ -50,12 +50,11 @@ chmod +x ~/.local/bin/vvse
 > If your terminal behavior feels "off" after an unexpected crash, simply type `reset` and hit Enter to restore your terminal settings.
 
 ## What VVSE isn’t
-
 VVSE is intentionally minimal, and that means a lot of things it *does not* try to be:
 
-* **Not a full-featured editor**
-* **Not stable or production-ready software**
-* **Not optimized for performance**
-* **Not extensible**
-* **Not designed for large-scale editing**
-* **Not a replacement for real-world tools**
+* Not a full-featured editor
+* Not stable or production-ready software
+* Not optimized for performance
+* Not extensible
+* Not designed for large-scale editing
+* Not a replacement for real-world tools
