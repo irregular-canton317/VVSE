@@ -60,3 +60,7 @@ VVSE is intentionally minimal, and that means a lot of things it *does not* try 
 * Not designed for large-scale editing
 * Not a replacement for real-world tools
 * Not made for files >500KB
+
+---
+
+*Made with 🖤❤️💛 by [Vextoly](https://vextoly.link/)*
