@@ -1,5 +1,5 @@
 ## VVSE-mini
-
+[View the code](https://github.com/vextoly/VVSE/blob/main/mini/mini.sh)
 
 **VVSE-mini** is the distilled essence of an already microscopic editor. While the original **VVSE** fits under 1KB, this "mini" version is for when every single byte counts—a bare-bones, code-golfed proof of concept that proves you don't need a massive binary to manipulate text.
 
