@@ -54,19 +54,8 @@ chmod +x ~/.local/bin/vvse
 VVSE is intentionally minimal, and that means a lot of things it *does not* try to be:
 
 * **Not a full-featured editor**
-  VVSE does not aim to compete with editors like Vim, Nano, or Micro. It lacks advanced editing workflows, plugins, and mature text manipulation tools.
-
 * **Not stable or production-ready software**
-  This is a proof-of-concept written in a very small Bash script. It may break in unusual terminals, edge cases, or unexpected input conditions.
-
 * **Not optimized for performance**
-  The editor redraws the screen every input cycle and relies on simple shell constructs rather than efficient data structures.
-
 * **Not extensible**
-  There is no plugin system, scripting API, or configuration framework. What you see in the script is what you get.
-
 * **Not designed for large-scale editing**
-  VVSE works best for small files and quick experiments, not long documents or heavy development work.
-
 * **Not a replacement for real-world tools**
-  It’s a demonstration of how far you can push POSIX shell and ANSI escape codes—not a suggestion to replace established editors.
