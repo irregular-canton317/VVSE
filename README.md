@@ -1,4 +1,5 @@
 # VVSE - Vextoly's Very Simple Editor (PoC)
+VVSE is still to big for you? Check out [VVSE-mini](https://github.com/vextoly/VVSE/tree/main/mini)!
 
 A remarkably tiny, functional text editor written in less than **1 KB** of pure Bash. **VVSE** focuses on extreme minimalism, using only standard Unix tools and ANSI escape sequences to create a distraction-free TUI.
 
